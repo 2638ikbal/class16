@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Header Section */
+.custom-nav{
+    background:#101446;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.header-section {
+    background-color: #101446;
+}
+.navbar-brand img{
+    width: 100px;
+}
+
+
+
+a.nav-item {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 58px;
+    padding: 0 18px;
+    position: relative;
+}
+.header-menu ul li a:hover {
+}
+a.nav-item:before {
+    content: "";
+    position: absolute;
+    top: 46px;
+    left: 0;
+    background: white;
+    width: 0;
+    height: 3px;
+    transition: 0.4s;
+}
+a.nav-item:hover::before {
+    width: 100%;
+}
+
+/* Header Section End */
+
+.banner-section {
+    background-image: url(./Images/Banner.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    padding: 150px 0 270px 0;
+}
+.banner-content h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.banner-content p {
+    color: white;
+    margin-bottom: 50px;
+}
+/* Banner Section End */
+
+/* Team Section */
+.team-section {
+    background-color: #bac1f3;
+    padding: 90px 0 25px 0;
+}
+.team-header {
+    margin-bottom: 45px;
+}
+.team-header h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+.team-profile {
+    padding: 50px;
+}
+.team-profile img {
+    width: 150px;
+}
+.extra {
+    width: 163px !important;
+}
+.team-profile p {
+    font-size: 18px;
+    color: #646464;
+}
+/* Team Section End */
+
+/* About Section */
+
+.about-section{
+    background-color: #c2d4ea;
+    padding: 100px 0;
+}
+.about-heading h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+p {
+    color: #646464;
+}
+.left-bottom p {
+    margin-top: 16px;
+}
+.bold {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.image-profile p {
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+/* About Section End */
+
+/* Contact Section */
+.contact-section{
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+span{
+    font-weight: 500;
+}
+/* Contact Section end */
+
+
+/* Footer Section */
+.footer-section{
+    background-color: ;
+}
+.footer-content p {
+    color: white;
+    margin-bottom: 0;
+}
+/* Footer Section end */
